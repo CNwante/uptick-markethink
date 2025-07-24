@@ -29,7 +29,9 @@ export const BlogSection = () => {
         {featuredPost && (
           <div className="max-w-540px">
             <img src={featuredPost.image} alt={featuredPost.decription} />
-            <span className="block mt-4 text-gray-1 uppercase">{featuredPost.date}</span>
+            <span className="block mt-4 text-gray-1 uppercase">
+              {featuredPost.date}
+            </span>
             <h3 className="l3_heading max-w-[350px]">{featuredPost.title}</h3>
             <p>{featuredPost.excerpt}</p>
             <Button variant="secondary">Read More</Button>
@@ -39,7 +41,9 @@ export const BlogSection = () => {
         {regularPosts.map((post, index) => (
           <div key={index} className="max-w-[250px]">
             <img src={post.image} alt={post.decription} />
-            <span className="block mt-4 text-gray-1 uppercase">{post.date}</span>
+            <span className="block mt-4 text-gray-1 uppercase">
+              {post.date}
+            </span>
             <h3 className="l3_heading max-w-[210px]">{post.title}</h3>
             <p className="text-gray-1">{post.excerpt}</p>
             <Button variant="rounded" className="mt-4">

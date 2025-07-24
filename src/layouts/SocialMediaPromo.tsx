@@ -1,7 +1,6 @@
 import laptop1 from "../assets/images/laptop_1.png";
 import laptop2 from "../assets/images/laptop_2.png";
-import laptop3 from "../assets/images/laptop_3.png"; // fallback / default
-
+import laptop3 from "../assets/images/laptop_3.png";
 import { Button } from "../components/Button";
 
 export const SocialMediaPromo = () => {
@@ -9,7 +8,7 @@ export const SocialMediaPromo = () => {
     <section className="w-[80%] mx-auto flex justify-between items-center flex-wrap gap-y-16 lg:gap-8 py-12">
       <div className="max-w-[550px]">
         <img
-          src={laptop2} // fallback
+          src={laptop2}
           srcSet={`
             ${laptop1} 640w,
             ${laptop2} 1024w,

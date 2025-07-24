@@ -4,20 +4,15 @@ import greenPyramid from "../assets/icons/green_pyramid_icon.png";
 import { Button } from "../components/Button";
 
 export const HowWeHelp = () => {
-  const [activeIndex, setActiveIndex] = useState(0); // default to the first step
+  const [activeIndex, setActiveIndex] = useState(0);
 
   return (
     <section className="py-16 my-8 bg-green-0">
       <div className="w-[80%] mx-auto text-center">
         <h2 className="l2_heading mx-auto">How Can We Help You?</h2>
         <p className="description mx-auto">Let’s do great work together</p>
-
-        {/* Process line with icons and steps */}
         <div className="relative max-w-5xl mx-auto px-4">
-          {/* Dashed line */}
           <hr className="w-[75%] mx-auto invisible lg:visible absolute top-8 left-0 right-0 border-t-2 border-dashed border-gray-300 z-0" />
-
-          {/* Steps container */}
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             {helpSteps.map((step, index) => (
               <div

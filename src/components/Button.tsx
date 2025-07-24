@@ -22,7 +22,7 @@ export const Button: React.FC<ButtonProps> = ({
     secondary:
       "px-8 text-lime-2 border border-lime-3 hover:bg-lime-3 hover:text-white",
     rounded: "px-3 border border-lime-3 hover:bg-lime-3",
-    plain: "text-lime-3 text-xl"
+    plain: "text-lime-3 text-xl",
   };
 
   return (

@@ -28,7 +28,6 @@ export const Newsletter = () => {
           </div>
         </div>
 
-        {/* ✅ Added onSubmit here */}
         <form
           onSubmit={handleSubmit}
           className="max-w-[530px] flex justify-center lg:justify-between gap-7 flex-wrap lg:flex-nowrap"

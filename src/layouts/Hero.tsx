@@ -26,10 +26,15 @@ export const Hero = () => {
           Get Started
         </Button>
       </div>
-      <img src={cube_1} alt="3D cube shape at the bottom-left of hero section" className="absolute left-0 bottom-0 w-[70px] md:w-[200px] lg:w-[250px] xl:w-[350px]" />
+      <img
+        src={cube_1}
+        alt="3D cube shape at the bottom-left of hero section"
+        className="absolute left-0 bottom-0 w-[70px] md:w-[200px] lg:w-[250px] xl:w-[350px]"
+      />
       <img
         src={cube_2}
-        alt="3D cube shape at the bottom-right of hero section" className="absolute right-0 bottom-0 w-[40px] md:w-[80px] lg:w-[120px] xl:w-[150px]"
+        alt="3D cube shape at the bottom-right of hero section"
+        className="absolute right-0 bottom-0 w-[40px] md:w-[80px] lg:w-[120px] xl:w-[150px]"
       />
     </section>
   );

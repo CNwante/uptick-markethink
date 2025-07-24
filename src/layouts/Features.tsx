@@ -6,9 +6,7 @@ export const Features = () => {
   return (
     <section className="w-[80%] mx-auto lg:py-18 lg:flex lg:justify-between py-14">
       <div className="max-w-2xl mx-auto mb-12 lg:max-w-[500px] lg:mx-0">
-        <h2 className="l2_heading">
-          We’re Strategic Digital Marketing Agency
-        </h2>
+        <h2 className="l2_heading">We’re Strategic Digital Marketing Agency</h2>
         <p className="description">
           We created a full-stack structure for our working workflow processes,
           were from the funny the century initial all made, have spare to
